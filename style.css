@@ -1,0 +1,122 @@
+.topnav {
+    position: relative;
+    background-color: #333;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: darkred;
+    color: white;
+}
+
+.topnav-centered a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.topnav-right {
+    float: right;
+}
+
+.img_mid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.facebook_logo{
+    float: right;
+}
+
+table, td {
+    border: 2px solid deepskyblue;
+    height: 40%;
+    left: 10%;
+    margin: 20px auto;
+    position: static;
+    width: 80%;
+}
+thead th {
+    background: #88CCF1;
+    color: #FFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+tr {
+    background: #f4f7f8;
+    border-bottom: 1px solid #FFF;
+    margin-bottom: 5px;
+}
+
+th, td {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px;
+    text-align: left;
+    width: 33.3333%;
+}
+
+
+@media screen and (max-width: 600px) {
+    .topnav a, .topnav-right {
+        float: none;
+        display: block;
+    }
+
+    .topnav-centered a {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+    }
+
+}
+
+p{
+    text-align: center;
+    font-family: "Curlz MT";
+    font-size: 64px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+#img2 {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+
+#img3 {
+    position: absolute;
+    left: 500px;
+    top: 50px;
+}
+
+#img4 {
+    position: absolute;
+    left: 850px;
+    top: 50px;
+}
