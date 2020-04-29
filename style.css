@@ -98,25 +98,7 @@ p{
     font-size: 64px;
 }
 
-.container {
-    position: relative;
-    text-align: center;
-    color: white;
-}
-#img2 {
-    position: absolute;
-    left: 50px;
-    top: 50px;
-}
 
-#img3 {
-    position: absolute;
-    left: 500px;
-    top: 50px;
-}
-
-#img4 {
-    position: absolute;
-    left: 850px;
-    top: 50px;
+body{
+    background-image: url("bg.jpg");
 }
